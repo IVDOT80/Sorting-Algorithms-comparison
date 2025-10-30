@@ -1,8 +1,9 @@
 from src.bubble_sort import bubble_sort
 from src.merge_sort import merge_sort
+from src.insertion_sort import insertion_sort
 
 
-def test_merge_sort(func):
+def test_sort(func):
     test_cases = [
         ([3, 1, 4, 1, 5, 9, 2, 6], [1, 1, 2, 3, 4, 5, 6, 9]),
         ([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]),
@@ -26,5 +27,6 @@ def test_merge_sort(func):
 
 # Run tests
 if __name__ == '__main__':
-    test_merge_sort(merge_sort)
-    test_merge_sort(bubble_sort)
+    test_sort(merge_sort)
+    test_sort(bubble_sort)
+    test_sort(insertion_sort)
