@@ -1,6 +1,7 @@
 from src.bubble_sort import bubble_sort
 from src.merge_sort import merge_sort
 from src.insertion_sort import insertion_sort
+from src.selection_sort import selection_sort
 
 
 def test_sort(func):
@@ -30,3 +31,4 @@ if __name__ == '__main__':
     test_sort(merge_sort)
     test_sort(bubble_sort)
     test_sort(insertion_sort)
+    test_sort(selection_sort)
