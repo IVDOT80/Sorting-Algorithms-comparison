@@ -2,6 +2,7 @@ from src.bubble_sort import bubble_sort
 from src.merge_sort import merge_sort
 from src.insertion_sort import insertion_sort
 from src.selection_sort import selection_sort
+from src.quick_sort import quick_sort
 
 
 def test_sort(func):
@@ -12,7 +13,8 @@ def test_sort(func):
         ([42], [42]),
         ([2, 2, 2, 2], [2, 2, 2, 2]),
         ([], []),
-        ([10, -5, 0, 3, -2], [-5, -2, 0, 3, 10])
+        ([10, -5, 0, 3, -2], [-5, -2, 0, 3, 10]),
+        ([-2, 0, -5, 3, 1] ,[-5, -2, 0, 1, 3])
     ]
 
     print(f'Here we have the testing results for "{func.__name__}": \n')
@@ -32,3 +34,4 @@ if __name__ == '__main__':
     test_sort(bubble_sort)
     test_sort(insertion_sort)
     test_sort(selection_sort)
+    test_sort(quick_sort)
