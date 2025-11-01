@@ -1,5 +1,6 @@
 from typing import List
 
+
 def bubble_sort(list_numb: List[int],/) -> List[int]:
     """
     Sorts a list using Bubble Sort algorithm.

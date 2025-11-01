@@ -1,5 +1,6 @@
 from typing import List
 
+
 def insertion_sort(list_numb: List[int]) -> List[int]:
     """
     Sorts a list using Insertion Sort algorithm.

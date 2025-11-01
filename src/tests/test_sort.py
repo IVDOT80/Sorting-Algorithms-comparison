@@ -1,8 +1,8 @@
 from src.bubble_sort import bubble_sort
-from src.merge_sort import merge_sort
 from src.insertion_sort import insertion_sort
-from src.selection_sort import selection_sort
+from src.merge_sort import merge_sort
 from src.quick_sort import quick_sort
+from src.selection_sort import selection_sort
 
 
 def test_sort(func):

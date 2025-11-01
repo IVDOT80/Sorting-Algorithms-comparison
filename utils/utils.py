@@ -1,6 +1,7 @@
-import time
 import sys
+import time
 from typing import Callable, List
+
 
 def measure_time(func: Callable,/, list: List[int]) -> float:
     """

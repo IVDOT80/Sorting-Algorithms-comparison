@@ -1,5 +1,6 @@
 from typing import List
 
+
 def merge_sort(list_num: List[int], /) -> List[int]:
     """Sorts a list of numbers using the merge sort algorithm.
 
